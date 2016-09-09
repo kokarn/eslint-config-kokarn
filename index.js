@@ -263,7 +263,8 @@ module.exports = {
             'error'
         ],
         'computed-property-spacing': [
-            'error'
+            'error',
+            'always'
         ],
         'consistent-this': [
             'error',
