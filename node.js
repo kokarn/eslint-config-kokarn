@@ -10,6 +10,9 @@ module.exports = {
         'node'
     ],
     rules: {
+        'no-console': [
+            'off'
+        ],
         'node/no-missing-import': [
             'error'
         ],
