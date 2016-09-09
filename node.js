@@ -10,13 +10,13 @@ module.exports = {
         'node'
     ],
     rules: {
-        'no-missing-import': [
+        'node/no-missing-import': [
             'error'
         ],
-        'no-unpublished-import': [
+        'node/no-unpublished-import': [
             'error'
         ],
-        'process-exit-as-throw': [
+        'node/process-exit-as-throw': [
             'error'
         ]
     }
