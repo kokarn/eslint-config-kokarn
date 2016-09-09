@@ -380,11 +380,7 @@ module.exports = {
         'object-curly-newline': [
             'error',
             {
-                'ObjectExpression': 'always',
-                'ObjectPattern': {
-                    'multiline': true,
-                    'minProperties': 2
-                }
+                'minProperties': 1
             }
         ],
         'object-curly-spacing': [
