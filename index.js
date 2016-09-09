@@ -120,7 +120,10 @@ module.exports = {
             'error'
         ],
         'no-magic-numbers': [
-            'error'
+            'error',
+            {
+                "ignore": [ -1, 0, 1 ]
+            }
         ],
         'no-multi-str': [
             'error'
