@@ -477,6 +477,9 @@ module.exports = {
         'no-useless-rename': [
             'error'
         ],
+        'no-useless-return': [
+            'error'
+        ],
         'no-var': [
             'error'
         ],
@@ -509,6 +512,9 @@ module.exports = {
             'always'
         ],
         'yield-star-spacing': [
+            'error'
+        ],
+        'func-name-matching': [
             'error'
         ]
     }
