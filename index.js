@@ -407,6 +407,16 @@ module.exports = {
             'error',
             'never'
         ],
+        'prefer-destructuring': [
+            'error',
+            {
+                "array": false,
+                "object": true
+            },
+            {
+                "enforceForRenamedProperties": true
+            }
+        ],
         'quote-props': [
             'error',
             'as-needed'
