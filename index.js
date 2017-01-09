@@ -310,11 +310,11 @@ module.exports = {
             }
         ],
         'max-depth': [
-            'error',
-            120
+            'error'
         ],
         'max-len': [
-            'warn'
+            'warn',
+            120
         ],
         'max-nested-callbacks': [
             'error'
