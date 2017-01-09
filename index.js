@@ -310,7 +310,8 @@ module.exports = {
             }
         ],
         'max-depth': [
-            'error'
+            'error',
+            120
         ],
         'max-len': [
             'warn'
