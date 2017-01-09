@@ -304,7 +304,10 @@ module.exports = {
             'error'
         ],
         'lines-around-comment': [
-            'error'
+            'error',
+            {
+                'allowBlockStart': true
+            }
         ],
         'max-depth': [
             'error'
