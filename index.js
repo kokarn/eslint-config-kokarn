@@ -5,11 +5,10 @@ module.exports = {
     rules: {
         'indent': [
             'error',
-            4
-        ],
-        'quotes': [
-            'error',
-            'single'
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         'semi': [
             'error',
