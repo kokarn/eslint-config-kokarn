@@ -290,9 +290,6 @@ module.exports = {
             'cb',
             'callback'
         ],
-        'indent': [
-            'error'
-        ],
         'jsx-quotes': [
             'error',
             'prefer-single'
@@ -429,9 +426,6 @@ module.exports = {
             }
         ],
         'semi-spacing': [
-            'error'
-        ],
-        'semi': [
             'error'
         ],
         'sort-keys': [
