@@ -4,7 +4,7 @@
   "description": "My eslint config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node install.js"
+    "install": "scripts/install.js"
   },
   "repository": {
     "type": "git",

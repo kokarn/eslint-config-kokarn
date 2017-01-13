@@ -6,7 +6,7 @@ const DEFAULT_CONFIG = {
 };
 const DEFAULT_TEST_COMMAND = 'eslint *.js';
 const DEFAULT_ENGINE = '^6.9.4';
-const PACKAGE_PATH = path.join( __dirname, '../../', 'package.json' );
+const PACKAGE_PATH = path.join( __dirname, '../../../', 'package.json' );
 
 const packageData = JSON.parse( fs.readFileSync( PACKAGE_PATH, 'utf8' ) );
 
