@@ -7,9 +7,10 @@ const DEFAULT_CONFIG = {
 const DEFAULT_TEST_COMMAND = 'eslint *.js';
 const DEFAULT_ENGINE = '^6.9.4';
 const PACKAGE_PATH = path.join( __dirname, '../../../', 'package.json' );
+let packageData = '';
 
 try {
-    const packageData = JSON.parse( fs.readFileSync( PACKAGE_PATH, 'utf8' ) );
+    packageData = JSON.parse( fs.readFileSync( PACKAGE_PATH, 'utf8' ) );
 } catch ( error ) {
     console.log( `Failed to load package.json in ${ PACKAGE_PATH }, skipping setup` );
     process.exit( 0 );
