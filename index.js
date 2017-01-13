@@ -448,7 +448,8 @@ module.exports = {
             'error'
         ],
         'arrow-body-style': [
-            'error'
+            'error',
+            'always'
         ],
         'arrow-parens': [
             'error'
