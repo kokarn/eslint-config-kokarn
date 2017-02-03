@@ -514,6 +514,12 @@ module.exports = {
         ],
         'func-name-matching': [
             'error'
+        ],
+        'no-multi-assign': [
+            'error'
+        ],
+        'prefer-promise-reject-errors': [
+            'error'
         ]
     }
 };
