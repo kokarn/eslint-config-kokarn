@@ -122,6 +122,21 @@ module.exports = {
         ],
         'react/jsx-wrap-multilines': [
             'error'
+        ],
+        'react/no-children-prop': [
+            'error'
+        ],
+        'react/no-unescaped-entities': [
+            'error'
+        ],
+        'react/jsx-tag-spacing': [
+            'error'
+        ],
+        'react/no-array-index-key': [
+            'error'
+        ],
+        'react/require-default-props': [
+            'error'
         ]
     }
 };
