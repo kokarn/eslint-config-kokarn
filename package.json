@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kokarn/eslint-config-kokarn#readme",
   "dependencies": {
-    "eslint-plugin-node": "^3.0.0",
+    "eslint-plugin-node": "^4.0.0",
     "eslint-plugin-react": "^6.2.0"
   },
   "peerDependencies": {
