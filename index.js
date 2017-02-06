@@ -212,7 +212,10 @@ module.exports = {
             'error'
         ],
         'no-use-before-define': [
-            'error'
+            'error',
+            {
+                'variables': false
+            }
         ],
         'callback-return': [
             'error'
@@ -520,6 +523,10 @@ module.exports = {
         ],
         'prefer-promise-reject-errors': [
             'error'
+        ],
+        'template-tag-spacing': [
+            'error',
+            'always'
         ]
     }
 };
