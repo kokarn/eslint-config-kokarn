@@ -8,6 +8,7 @@ const DEFAULT_TEST_COMMAND = 'eslint *.js';
 const DEFAULT_ENGINE = '^6.9.4';
 const PACKAGE_PATH = path.join( __dirname, '../../../', 'package.json' );
 let packageData = '';
+let write = false;
 
 try {
     packageData = JSON.parse( fs.readFileSync( PACKAGE_PATH, 'utf8' ) );
@@ -20,16 +21,28 @@ if( !packageData.scripts ){
     packageData.scripts = {
         pretest: DEFAULT_TEST_COMMAND
     };
+
+    write = true;
 } else if ( packageData.scripts && !packageData.scripts.pretest ){
     packageData.scripts.pretest = DEFAULT_TEST_COMMAND;
+
+    write = true;
 }
 
 if ( !packageData.engines ){
     packageData.engines = {
         node: DEFAULT_ENGINE
     };
+
+    write = true;
 }
 
-packageData.eslintConfig = DEFAULT_CONFIG;
+if ( !packageData.eslintConfig ) {
+    packageData.eslintConfig = DEFAULT_CONFIG;
 
-fs.writeFileSync( PACKAGE_PATH, JSON.stringify( packageData, null, 2 ) );
+    write = true;
+}
+
+if ( write ) {
+    fs.writeFileSync( PACKAGE_PATH, JSON.stringify( packageData, null, 2 ) );
+}
