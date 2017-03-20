@@ -121,7 +121,8 @@ module.exports = {
         'no-magic-numbers': [
             'error',
             {
-                "ignore": [ -1, 0, 1 ]
+                "ignore": [ -1, 0, 1 ],
+                "ignoreArrayIndexes": true
             }
         ],
         'no-multi-str': [
