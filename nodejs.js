@@ -20,6 +20,12 @@ module.exports = {
         'node/no-deprecated-api': [
             'error',
         ],
+        'node/no-extraneous-import': [
+            'error',
+        ],
+        'node/no-extraneous-require': [
+            'error',
+        ],
         'node/no-missing-import': [
             'error',
         ],
