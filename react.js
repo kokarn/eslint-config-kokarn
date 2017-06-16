@@ -9,7 +9,6 @@ module.exports = {
     ],
     parserOptions: {
         ecmaFeatures: {
-            experimentalObjectRestSpread: true,
             jsx: true,
         },
         sourceType: 'module',
@@ -21,6 +20,18 @@ module.exports = {
         'no-extra-parens': [
             'off',
         ],
+        'react/default-props-match-prop-types': [
+            'error',
+        ],
+        'react/display-name': [
+            'error',
+        ],
+        'react/forbid-component-props': [
+            'error',
+        ],
+        'react/forbid-foreign-prop-types': [
+            'error',
+        ],
         'react/forbid-prop-types': [
             'error',
         ],
@@ -28,6 +39,9 @@ module.exports = {
             'error',
         ],
         'react/jsx-closing-bracket-location': [
+            'error',
+        ],
+        'react/jsx-closing-tag-location': [
             'error',
         ],
         'react/jsx-curly-spacing': [
@@ -66,10 +80,16 @@ module.exports = {
         'react/jsx-no-comment-textnodes': [
             'error',
         ],
+        'react/jsx-no-duplicte-props': [
+            'error',
+        ],
         'react/jsx-no-literals': [
             'error',
         ],
         'react/jsx-no-target-blank': [
+            'error',
+        ],
+        'react/jsx-no-undef': [
             'error',
         ],
         'react/jsx-pascal-case': [
@@ -82,6 +102,12 @@ module.exports = {
             'error',
         ],
         'react/jsx-tag-spacing': [
+            'error',
+        ],
+        'react/jsx-uses-react': [
+            'error',
+        ],
+        'react/jsx-uses-vars': [
             'error',
         ],
         'react/jsx-wrap-multilines': [
@@ -99,13 +125,28 @@ module.exports = {
         'react/no-danger-with-children': [
             'error',
         ],
+        'react/no-deprecated': [
+            'error',
+        ],
         'react/no-did-mount-set-state': [
             'error',
         ],
         'react/no-did-update-set-state': [
             'error',
         ],
+        'react/no-direct-mutation-state': [
+            'error',
+        ],
+        'react/no-find-dom-node': [
+            'error',
+        ],
+        'react/no-is-mounted': [
+            'error',
+        ],
         'react/no-multi-comp': [
+            'error',
+        ],
+        'react/no-redundant-should-component-update': [
             'error',
         ],
         'react/no-render-return-value': [
@@ -117,6 +158,9 @@ module.exports = {
         'react/no-unescaped-entities': [
             'error',
         ],
+        'react/no-unknown-property': [
+            'error',
+        ],
         'react/no-unused-prop-types': [
             'error',
         ],
@@ -124,6 +168,9 @@ module.exports = {
             'error',
         ],
         'react/require-default-props': [
+            'error',
+        ],
+        'react/require-render-return': [
             'error',
         ],
         'react/self-closing-comp': [
@@ -136,6 +183,9 @@ module.exports = {
             'error',
         ],
         'react/style-prop-object': [
+            'error',
+        ],
+        'react/void-dom-elements-no-children': [
             'error',
         ],
     },
