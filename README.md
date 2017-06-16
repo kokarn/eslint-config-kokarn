@@ -20,6 +20,6 @@ Just use it as an extends in the `.eslintrc.json`
 ### Node
 ```json
 {
-    "extends": "kokarn/node"
+    "extends": "kokarn/nodejs"
 }
 ```
