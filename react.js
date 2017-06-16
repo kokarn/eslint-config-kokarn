@@ -1,142 +1,142 @@
 module.exports = {
+    env: {
+        browser: true,
+        es6: true,
+    },
     extends: [
         'plugin:react/recommended',
-        'kokarn'
+        'kokarn',
     ],
-    env: {
-        'browser': true,
-        'es6': true
-    },
     parserOptions: {
-        'ecmaFeatures': {
-            'experimentalObjectRestSpread': true,
-            'jsx': true
+        ecmaFeatures: {
+            experimentalObjectRestSpread: true,
+            jsx: true,
         },
-        'sourceType': 'module'
+        sourceType: 'module',
     },
     plugins: [
-        'react'
+        'react',
     ],
     rules: {
         'no-extra-parens': [
-            'off'
+            'off',
         ],
         'react/forbid-prop-types': [
-            'error'
-        ],
-        'react/no-danger': [
-            'error'
-        ],
-        'react/no-danger-with-children': [
-            'error'
-        ],
-        'react/no-did-mount-set-state': [
-            'error'
-        ],
-        'react/no-did-update-set-state': [
-            'error'
-        ],
-        'react/no-multi-comp': [
-            'error'
-        ],
-        'react/no-render-return-value': [
-            'error'
-        ],
-        'react/no-string-refs': [
-            'error'
-        ],
-        'react/no-unused-prop-types': [
-            'error'
-        ],
-        'react/prefer-es6-class': [
-            'error'
-        ],
-        'react/self-closing-comp': [
-            'error'
-        ],
-        'react/sort-comp': [
-            'error'
-        ],
-        'react/sort-prop-types': [
-            'error'
-        ],
-        'react/style-prop-object': [
-            'error'
+            'error',
         ],
         'react/jsx-boolean-value': [
-            'error'
+            'error',
         ],
         'react/jsx-closing-bracket-location': [
-            'error'
+            'error',
         ],
         'react/jsx-curly-spacing': [
             'error',
-            'always'
+            'always',
         ],
         'react/jsx-equals-spacing': [
             'error',
-            'always'
+            'always',
         ],
         'react/jsx-filename-extension': [
-            'error'
+            'error',
         ],
         'react/jsx-first-prop-new-line': [
             'error',
-            'always'
+            'always',
         ],
         'react/jsx-handler-names': [
-            'error'
+            'error',
         ],
         'react/jsx-indent': [
-            'error'
+            'error',
         ],
         'react/jsx-indent-props': [
-            'error'
+            'error',
         ],
         'react/jsx-key': [
-            'error'
+            'error',
         ],
         'react/jsx-max-props-per-line': [
-            'error'
+            'error',
         ],
         'react/jsx-no-bind': [
-            'error'
+            'error',
         ],
         'react/jsx-no-comment-textnodes': [
-            'error'
+            'error',
         ],
         'react/jsx-no-literals': [
-            'error'
+            'error',
         ],
         'react/jsx-no-target-blank': [
-            'error'
+            'error',
         ],
         'react/jsx-pascal-case': [
-            'error'
+            'error',
         ],
         'react/jsx-sort-props': [
-            'error'
+            'error',
         ],
         'react/jsx-space-before-closing': [
-            'error'
-        ],
-        'react/jsx-wrap-multilines': [
-            'error'
-        ],
-        'react/no-children-prop': [
-            'error'
-        ],
-        'react/no-unescaped-entities': [
-            'error'
+            'error',
         ],
         'react/jsx-tag-spacing': [
-            'error'
+            'error',
+        ],
+        'react/jsx-wrap-multilines': [
+            'error',
         ],
         'react/no-array-index-key': [
-            'error'
+            'error',
+        ],
+        'react/no-children-prop': [
+            'error',
+        ],
+        'react/no-danger': [
+            'error',
+        ],
+        'react/no-danger-with-children': [
+            'error',
+        ],
+        'react/no-did-mount-set-state': [
+            'error',
+        ],
+        'react/no-did-update-set-state': [
+            'error',
+        ],
+        'react/no-multi-comp': [
+            'error',
+        ],
+        'react/no-render-return-value': [
+            'error',
+        ],
+        'react/no-string-refs': [
+            'error',
+        ],
+        'react/no-unescaped-entities': [
+            'error',
+        ],
+        'react/no-unused-prop-types': [
+            'error',
+        ],
+        'react/prefer-es6-class': [
+            'error',
         ],
         'react/require-default-props': [
-            'error'
-        ]
-    }
+            'error',
+        ],
+        'react/self-closing-comp': [
+            'error',
+        ],
+        'react/sort-comp': [
+            'error',
+        ],
+        'react/sort-prop-types': [
+            'error',
+        ],
+        'react/style-prop-object': [
+            'error',
+        ],
+    },
 };

@@ -1,48 +1,48 @@
 module.exports = {
+    env: {
+        node: true,
+    },
     extends: [
         'plugin:node/recommended',
-        'kokarn'
+        'kokarn',
     ],
-    env: {
-        'node': true
-    },
     plugins: [
-        'node'
+        'node',
     ],
     rules: {
         'no-console': [
-            'off'
+            'off',
         ],
         'node/exports-style': [
             'error',
-            'module.exports'
+            'module.exports',
         ],
         'node/no-deprecated-api': [
-            'error'
+            'error',
         ],
         'node/no-missing-import': [
-            'error'
+            'error',
         ],
         'node/no-missing-require': [
-            'error'
+            'error',
         ],
         'node/no-unpublished-bin': [
-            'error'
+            'error',
         ],
         'node/no-unpublished-import': [
-            'error'
+            'error',
         ],
         'node/no-unpublished-require': [
-            'error'
+            'error',
         ],
         'node/no-unsupported-features': [
-            'error'
+            'error',
         ],
         'node/process-exit-as-throw': [
-            'error'
+            'error',
         ],
         'node/shebang': [
-            'error'
-        ]
-    }
+            'error',
+        ],
+    },
 };
