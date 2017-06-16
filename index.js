@@ -6,6 +6,10 @@ module.exports = {
         'accessor-pairs': [
             'error',
         ],
+        'array-bracket-newline': [
+            'error',
+            'always',
+        ],
         'array-bracket-spacing': [
             'error',
             'always',
@@ -77,6 +81,9 @@ module.exports = {
         ],
         eqeqeq: [
             'error',
+        ],
+        'for-direction': [
+            'error'
         ],
         'func-call-spacing': [
             'error',
@@ -158,12 +165,6 @@ module.exports = {
         'new-parens': [
             'error',
         ],
-        'newline-after-var': [
-            'error',
-        ],
-        'newline-before-return': [
-            'error',
-        ],
         'newline-per-chained-call': [
             'error',
         ],
@@ -174,6 +175,9 @@ module.exports = {
             'error',
         ],
         'no-bitwise': [
+            'error',
+        ],
+        'no-buffer-constructor': [
             'error',
         ],
         'no-caller': [
@@ -431,6 +435,36 @@ module.exports = {
             'error',
             'never',
         ],
+        'padding-line-between-statements': [
+            'error',
+            {
+                blankLine: 'always',
+                next: 'return',
+                prev: '*',
+            },
+            {
+                blankLine: 'always',
+                next: '*',
+                prev: [
+                    'const',
+                    'let',
+                    'var',
+                ],
+            },
+            {
+                blankLine: 'any',
+                next: [
+                    'const',
+                    'let',
+                    'var',
+                ],
+                prev: [
+                    'const',
+                    'let',
+                    'var',
+                ],
+            }
+        ],
         'prefer-arrow-callback': [
             'error',
         ],
@@ -476,6 +510,9 @@ module.exports = {
         'semi-spacing': [
             'error',
         ],
+        'semi-style': [
+            'error',
+        ],
         'sort-keys': [
             'error',
             'asc',
@@ -501,6 +538,9 @@ module.exports = {
             'error',
         ],
         'spaced-comment': [
+            'error',
+        ],
+        'switch-colon-spacing': [
             'error',
         ],
         'symbol-description': [
