@@ -8,7 +8,10 @@ module.exports = {
         ],
         'array-bracket-newline': [
             'error',
-            'always',
+            {
+                minItems: 2,
+                multiline: true,
+            }
         ],
         'array-bracket-spacing': [
             'error',
