@@ -29,6 +29,10 @@
       "node": true
     },
     "rules": {
+      "array-bracket-newline": [
+        "error",
+        "always"
+      ],
       "no-magic-numbers": [
         "off"
       ]

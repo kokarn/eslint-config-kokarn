@@ -11,7 +11,7 @@ module.exports = {
             {
                 minItems: 2,
                 multiline: true,
-            }
+            },
         ],
         'array-bracket-spacing': [
             'error',
@@ -86,7 +86,7 @@ module.exports = {
             'error',
         ],
         'for-direction': [
-            'error'
+            'error',
         ],
         'func-call-spacing': [
             'error',
@@ -259,7 +259,11 @@ module.exports = {
         'no-magic-numbers': [
             'error',
             {
-                ignore: [ -1, 0, 1 ],
+                ignore: [
+                    -1,
+                    0,
+                    1,
+                ],
                 ignoreArrayIndexes: true,
             },
         ],
@@ -466,7 +470,7 @@ module.exports = {
                     'let',
                     'var',
                 ],
-            }
+            },
         ],
         'prefer-arrow-callback': [
             'error',
