@@ -44,6 +44,9 @@ module.exports = {
         ],
         camelcase: [
             'error',
+            {
+                ignoreDestructuring: true,
+            },
         ],
         'comma-dangle': [
             'error',
@@ -158,12 +161,18 @@ module.exports = {
             'error',
             'always',
         ],
+        'max-classes-per-file': [
+            'error',
+        ],
         'max-depth': [
             'error',
         ],
         'max-len': [
             'warn',
             120,
+        ],
+        'max-lines-per-function': [
+            'error',
         ],
         'max-nested-callbacks': [
             'error',
@@ -194,6 +203,9 @@ module.exports = {
             'error',
         ],
         'no-array-constructor': [
+            'error',
+        ],
+        'no-async-promise-executor': [
             'error',
         ],
         'no-bitwise': [
@@ -285,6 +297,9 @@ module.exports = {
                 ],
                 ignoreArrayIndexes: true,
             },
+        ],
+        'no-misleading-character-class': [
+            'error',
         ],
         'no-mixed-operators': [
             'error',
@@ -497,6 +512,9 @@ module.exports = {
         'prefer-const': [
             'warn',
         ],
+        'prefer-object-spread': [
+            'error',
+        ],
         'prefer-promise-reject-errors': [
             'error',
         ],
@@ -527,6 +545,12 @@ module.exports = {
             'error',
         ],
         'rest-spread-spacing': [
+            'error',
+        ],
+        'require-atomic-updates': [
+            'error',
+        ],
+        'require-unicode-regexp': [
             'error',
         ],
         semi: [
