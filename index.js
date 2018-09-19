@@ -100,7 +100,14 @@ module.exports = {
         'func-style': [
             'error',
         ],
+        'function-paren-newline': [
+            'error',
+            'multiline',
+        ],
         'generator-star-spacing': [
+            'error',
+        ],
+        'getter-return': [
             'error',
         ],
         'global-require': [
@@ -119,6 +126,10 @@ module.exports = {
             'e',
             'cb',
             'callback',
+        ],
+        'implicit-arrow-linebreak': [
+            'error',
+            'beside',
         ],
         indent: [
             'error',
@@ -143,6 +154,10 @@ module.exports = {
                 allowBlockStart: true,
             },
         ],
+        'lines-between-class-members': [
+            'error',
+            'always',
+        ],
         'max-depth': [
             'error',
         ],
@@ -158,6 +173,10 @@ module.exports = {
         ],
         'max-statements-per-line': [
             'error',
+        ],
+        'multiline-comment-style': [
+            'error',
+            'separate-lines',
         ],
         'multiline-ternary': [
             'error',
