@@ -518,9 +518,6 @@ module.exports = {
         'prefer-promise-reject-errors': [
             'error',
         ],
-        'prefer-reflect': [
-            'error',
-        ],
         'prefer-rest-params': [
             'error',
         ],
