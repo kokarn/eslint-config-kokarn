@@ -377,7 +377,7 @@ module.exports = {
             'error',
         ],
         'no-sync': [
-            'warn',
+            'error',
         ],
         'no-tabs': [
             'error',
