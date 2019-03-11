@@ -418,6 +418,9 @@ module.exports = {
         'no-useless-call': [
             'error',
         ],
+        'no-useless-catch': [
+            'error',
+        ],
         'no-useless-computed-key': [
             'error',
         ],
@@ -511,6 +514,9 @@ module.exports = {
         ],
         'prefer-const': [
             'warn',
+        ],
+        'prefer-named-capture-group': [
+            'error',
         ],
         'prefer-object-spread': [
             'error',
