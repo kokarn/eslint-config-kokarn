@@ -98,9 +98,6 @@ module.exports = {
         'react/jsx-sort-props': [
             'error',
         ],
-        'react/jsx-space-before-closing': [
-            'error',
-        ],
         'react/jsx-tag-spacing': [
             'error',
         ],
