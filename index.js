@@ -13,10 +13,6 @@ module.exports = {
                 multiline: true,
             },
         ],
-        'array-bracket-spacing': [
-            'error',
-            'always',
-        ],
         'array-callback-return': [
             'error',
         ],
@@ -114,9 +110,6 @@ module.exports = {
             'error',
         ],
         'global-require': [
-            'error',
-        ],
-        'guard-for-in': [
             'error',
         ],
         'handle-callback-err': [
@@ -547,13 +540,13 @@ module.exports = {
         radix: [
             'error',
         ],
-        'rest-spread-spacing': [
-            'error',
-        ],
         'require-atomic-updates': [
             'error',
         ],
         'require-unicode-regexp': [
+            'error',
+        ],
+        'rest-spread-spacing': [
             'error',
         ],
         semi: [
@@ -598,10 +591,6 @@ module.exports = {
         ],
         'symbol-description': [
             'error',
-        ],
-        'template-curly-spacing': [
-            'error',
-            'always',
         ],
         'template-tag-spacing': [
             'error',
