@@ -5,7 +5,7 @@ const DEFAULT_CONFIG = {
     extends: 'kokarn'
 };
 const DEFAULT_TEST_COMMAND = 'eslint *.js';
-const DEFAULT_ENGINE = process.version.replace( 'v', '^' ) || '^10.10.0';
+const DEFAULT_ENGINE = process.version.replace( 'v', '^' ) || '^16.10.0';
 const PACKAGE_PATH = path.join( __dirname, '../../../', 'package.json' );
 let packageData = '';
 let write = false;
