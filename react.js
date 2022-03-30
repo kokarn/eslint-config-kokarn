@@ -56,7 +56,13 @@ module.exports = {
             'always',
         ],
         'react/jsx-filename-extension': [
-            'error',
+            1,
+            {
+                extensions: [
+                    '.js',
+                    '.jsx',
+                ],
+            },
         ],
         'react/jsx-first-prop-new-line': [
             'error',
