@@ -49,7 +49,7 @@ module.exports = {
         ],
         'react/jsx-curly-spacing': [
             'error',
-            'always',
+            'never',
         ],
         'react/jsx-equals-spacing': [
             'error',
