@@ -17,6 +17,9 @@ module.exports = {
         'react',
     ],
     rules: {
+        'max-lines-per-function': [
+            'off',
+        ],
         'no-extra-parens': [
             'off',
         ],
