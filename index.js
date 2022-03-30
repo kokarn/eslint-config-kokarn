@@ -582,7 +582,7 @@ module.exports = {
         ],
         'space-in-parens': [
             'error',
-            'always',
+            'never',
         ],
         'space-infix-ops': [
             'error',
