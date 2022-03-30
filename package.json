@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kokarn",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "description": "My eslint config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
