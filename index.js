@@ -59,7 +59,7 @@ module.exports = {
         ],
         'computed-property-spacing': [
             'error',
-            'always',
+            'never',
         ],
         'consistent-return': [
             'error',
