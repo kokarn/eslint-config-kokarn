@@ -141,9 +141,6 @@ module.exports = {
         'key-spacing': [
             'error',
         ],
-        'keyword-spacing': [
-            'error',
-        ],
         'lines-around-comment': [
             'error',
             {
@@ -162,7 +159,7 @@ module.exports = {
         ],
         'max-len': [
             'warn',
-            120,
+            180,
         ],
         'max-lines-per-function': [
             'error',
@@ -175,10 +172,6 @@ module.exports = {
         ],
         'max-statements-per-line': [
             'error',
-        ],
-        'multiline-comment-style': [
-            'error',
-            'separate-lines',
         ],
         'multiline-ternary': [
             'error',
@@ -567,9 +560,6 @@ module.exports = {
                 caseSensitive: false,
                 natural: true,
             },
-        ],
-        'space-before-blocks': [
-            'error',
         ],
         'space-before-function-paren': [
             'error',
